@@ -20,20 +20,21 @@
   background-image: url(../img/pattern.png);
   background-size: 50%;
   background-repeat: repeat;
-  text-align: end;
+  text-align: left;
   /* position: relative; */
 }
 
 .logo-hero {
   width: 25%;
+  margin-top: 40px;
   /* position: absolute;
   bottom: 5px;
   left: 10px; */
 }
 
-.space {
+/* .space {
   height: 45%;
-}
+} */
 /* /HEADER */
 
 /* MAIN */
@@ -55,4 +56,7 @@ h1 {
   font-size: 12px;
 }
 
+.tim-img {
+  width: 48%;
+}
 /* /MAIN */
