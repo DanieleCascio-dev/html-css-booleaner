@@ -10,6 +10,7 @@
 .center {
   width: 50%;
   margin: auto;
+  /* border: 2px solid black; */
 }
 /* /GENERAL SETTINGS */
 /* HEADER */
@@ -82,4 +83,27 @@ h1 {
   padding-left: 20px;
 }
 /* /Paragraph section */
+
+/* Table section */
+table {
+  text-align: justify;
+  width: 100%;
+  border-collapse: collapse;
+}
+th {
+  height: 10px;
+  background-color: #20a9e5;
+  color: white;
+}
+td {
+  vertical-align: middle;
+  height: 30%;
+  padding-right: 5px;
+}
+.td-large {
+  width: 20%;
+}
+.light-blue {
+  background-color: #b1e5f2;
+}
 /* /MAIN */
