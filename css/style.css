@@ -1,24 +1,55 @@
+/* GENERAL SETTINGS */
 * {
   box-sizing: border-box;
   margin: 0;
 }
+.mrg-btm {
+  margin-bottom: 15px;
+}
+
+.center {
+  width: 50%;
+  margin: auto;
+}
+/* /GENERAL SETTINGS */
 /* HEADER */
 
 .hero {
   background-color: #4ea0ff;
-  height: 100px;
+  height: 80px;
   background-image: url(../img/pattern.png);
-  background-size: 30%;
+  background-size: 50%;
   background-repeat: repeat;
   text-align: end;
   position: relative;
 }
 
 .logo-hero {
-  width: 15%;
+  width: 25%;
   position: absolute;
   bottom: 5px;
   left: 10px;
 }
 
 /* /HEADER */
+
+/* MAIN */
+
+h1 {
+  font-weight: 700;
+}
+
+.text-color-gray {
+  color: rgba(119, 119, 119, 0.8);
+}
+
+.author {
+  text-decoration: none;
+  color: #20a9e5;
+}
+
+.date {
+  font-size: 12px;
+}
+
+/* /MAIN */
