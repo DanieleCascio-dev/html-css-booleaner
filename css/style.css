@@ -73,5 +73,13 @@ h1 {
   font-size: 12px;
 }
 /* /Photo section */
+/* Paragraph section */
 
+.bg-yellow {
+  background-color: yellow;
+}
+.paragraph-list {
+  padding-left: 20px;
+}
+/* /Paragraph section */
 /* /MAIN */
