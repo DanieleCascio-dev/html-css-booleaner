@@ -21,16 +21,19 @@
   background-size: 50%;
   background-repeat: repeat;
   text-align: end;
-  position: relative;
+  /* position: relative; */
 }
 
 .logo-hero {
   width: 25%;
-  position: absolute;
+  /* position: absolute;
   bottom: 5px;
-  left: 10px;
+  left: 10px; */
 }
 
+.space {
+  height: 45%;
+}
 /* /HEADER */
 
 /* MAIN */
