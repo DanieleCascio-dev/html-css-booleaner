@@ -35,9 +35,11 @@
 /* .space {
   height: 45%;
 } */
+
 /* /HEADER */
 
 /* MAIN */
+/* Title section */
 
 h1 {
   font-weight: 700;
@@ -55,8 +57,21 @@ h1 {
 .date {
   font-size: 12px;
 }
+/* Title section */
 
-.tim-img {
-  width: 48%;
+/* Photo section */
+.tim-img-1 {
+  width: 55%;
+  height: 200px;
 }
+.tim-img-2 {
+  width: 44%;
+  height: 200px;
+}
+
+.text-small {
+  font-size: 12px;
+}
+/* /Photo section */
+
 /* /MAIN */
