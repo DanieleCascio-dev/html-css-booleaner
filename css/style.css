@@ -15,27 +15,30 @@
   margin-bottom: 20px;
 }
 
-.center {
+/* .center {
   width: 50%;
   margin: auto;
-  /* border: 2px solid black; */
-}
+  
+} */
+
 /* /GENERAL SETTINGS */
 /* HEADER */
 
 .hero {
   background-color: #4ea0ff;
-  height: 80px;
+  padding-top: 30px;
+  /* height: 80px; */
   background-image: url(../img/pattern.png);
-  background-size: 50%;
+  background-size: 300px;
   background-repeat: repeat;
-  text-align: left;
+  /* text-align: left; */
   /* position: relative; */
 }
 
 .logo-hero {
-  width: 25%;
-  margin-top: 40px;
+  height: 50px;
+  /* margin-top: 40px; */
+  margin-left: 5px;
   /* position: absolute;
   bottom: 5px;
   left: 10px; */
@@ -49,6 +52,10 @@
 
 /* MAIN */
 /* Title section */
+
+.padding-left {
+  padding-left: 5px;
+}
 
 h1 {
   font-weight: 700;
@@ -69,14 +76,19 @@ h1 {
 /* Title section */
 
 /* Photo section */
-.tim-img-1 {
+
+/* .img-container {
+  width: 100%;
+} */
+
+/* .tim-img-1 {
   width: 55%;
   height: 220px;
 }
 .tim-img-2 {
   width: 44%;
   height: 220px;
-}
+} */
 
 .text-small {
   font-size: 12px;
@@ -95,21 +107,23 @@ h1 {
 /* Table section */
 table {
   text-align: justify;
-  width: 100%;
+
   border-collapse: collapse;
 }
+
 th {
   height: 10px;
   background-color: #20a9e5;
   color: white;
+  text-align: left;
 }
 td {
-  vertical-align: middle;
+  /*  vertical-align: middle; */
   height: 30%;
   padding-right: 5px;
 }
 .td-large {
-  width: 20%;
+  width: 25%;
 }
 .light-blue {
   background-color: #b1e5f2;
@@ -121,26 +135,19 @@ td {
 .box {
   width: 250px;
   height: 200px;
+  padding-left: 10px;
+  padding-top: 10px;
+  font-weight: bold;
+  background-size: cover;
+  background-position: center;
 }
 
 .footer-img-1 {
   background-image: url(../img/monitor.jpg);
-  background-size: cover;
-  background-position: center;
-
-  padding-left: 10px;
-  padding-top: 10px;
-  font-weight: bold;
 }
 
 .footer-img-2 {
   background-image: url(../img/graph.jpg);
-  background-size: cover;
-  background-position: center;
-
-  padding-left: 10px;
-  padding-top: 10px;
-  font-weight: bold;
 }
 .footer-link {
   text-decoration: none;
