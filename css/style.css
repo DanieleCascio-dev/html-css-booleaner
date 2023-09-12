@@ -2,6 +2,7 @@
 * {
   box-sizing: border-box;
   margin: 0;
+  padding: 0;
 }
 .mrg-btm {
   margin-bottom: 15px;
@@ -15,11 +16,12 @@
   margin-bottom: 20px;
 }
 
-/* .center {
+.center {
   width: 50%;
-  margin: auto;
-  
-} */
+  min-width: 1100px;
+  max-width: 1500px;
+  margin: 0 auto;
+}
 
 /* /GENERAL SETTINGS */
 /* HEADER */
@@ -149,6 +151,7 @@ td {
 .footer-img-2 {
   background-image: url(../img/graph.jpg);
 }
+
 .footer-link {
   text-decoration: none;
   color: #fff;
